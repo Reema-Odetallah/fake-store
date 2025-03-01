@@ -7,7 +7,7 @@ const printCategories=async ()=>{
     const result=categories.map(category=>{
         return `
         <div class="categoryName">
-        <a href='categoryDetails.html?catogery=${category.name}'>${category.name}</a>
+        <a href='categoryDetails.html?category=${category.name}'>${category.name}</a>
       
         </div>
         `
